@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43109" started-at="2021-04-21T18:30:51Z" finished-at="2021-04-21T18:31:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43109" started-at="2021-04-21T18:30:51Z" finished-at="2021-04-21T18:31:34Z">
+      <class name="com.newHayesUI.tests.LoginTests">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948]" name="setUpSuit" is-config="true" duration-ms="1002" started-at="2021-04-21T18:30:50Z" finished-at="2021-04-21T18:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948]" name="setup" is-config="true" duration-ms="11333" started-at="2021-04-21T18:30:51Z" finished-at="2021-04-21T18:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948]" name="loginToApp" duration-ms="12923" started-at="2021-04-21T18:31:02Z" finished-at="2021-04-21T18:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948]" name="tearDownMethod" is-config="true" duration-ms="18015" started-at="2021-04-21T18:31:15Z" finished-at="2021-04-21T18:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp status=SUCCESS method=LoginTests.loginToApp()[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newHayesUI.tests.LoginTests@42e26948]" name="tearDown" is-config="true" duration-ms="814" started-at="2021-04-21T18:31:33Z" finished-at="2021-04-21T18:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newHayesUI.tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
